@@ -27,8 +27,8 @@ Library.ShowCustomCursor = true
 Library.NotifySide = "Right"
 
 local Window = Library:CreateWindow({
-    Title = 'Victory∣被遗弃',
-    Footer = "ISIS1.0.0",
+    Title = 'Victory被遗弃',
+    Footer = "Victory1.0.0",
     Icon = 72292989041893,
     Center = true,
     AutoShow = true,
@@ -631,15 +631,15 @@ local newTab = Tabs.new
 local rightBox = newTab:AddRightGroupbox('最新公告')
 local leftBox = newTab:AddLeftGroupbox('')
 
-leftBox:AddLabel("  ISIS脚本 ")
+leftBox:AddLabel("Victory Forsaken")
 leftBox:AddLabel("----------------------------------")
 leftBox:AddLabel("   状态:永久免费  ")
-leftBox:AddLabel("   更新:2025.7.8  ")
+leftBox:AddLabel("   更新:2025.10.25  ")
 leftBox:AddLabel("     ")
 leftBox:AddLabel("----------------------------------")
-leftBox:AddLabel("   群聊:1050946744  ")
-leftBox:AddLabel("   群聊:715522634  ")
-leftBox:AddLabel("   群聊:819518685  ")
+leftBox:AddLabel("   群聊:951637367  ")
+leftBox:AddLabel("   作者:秋山  ")
+leftBox:AddLabel("   禁止倒卖  ")
 leftBox:AddLabel("----------------------------------")
 
 
@@ -670,7 +670,7 @@ infoBox:AddLabel("4. 遇到问题请反馈给开发者")
 
 local bottomBorder = newTab:AddRightGroupbox('')
 bottomBorder:AddLabel("═════════════════════════════════")
-bottomBorder:AddLabel("感谢使用ISIS脚本 - 祝您游戏愉快！")
+bottomBorder:AddLabel("感谢使用Victory - 祝您游戏愉快！")
 bottomBorder:AddLabel("═════════════════════════════════")
 
 local KillerSurvival = Tabs.Main:AddLeftGroupbox("调节功能")
